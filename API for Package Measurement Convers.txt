@@ -1,0 +1,87 @@
+API for Package Measurement Conversion
+
+Summary:
+You are requested to develop an API for Package Measurement Conversion. will convert measurement characters into a list of the total
+ values of measured inflows for each package.
+
+The application will be implemented using Python (any one of the following web API development frameworks: CherryPy/Flask/FastAPI).
+You are also required to provide a README.md file in your PR (like contributing to an open-source project) that describes how to run the application. The project can be completed individually within 1-2 working days.
+
+Description:
+-The API is designed to solve the problem of converting measurement input strings into a list of the total values of measured inflows for each package.
+-The input strings represent measurement packages and follow a specific encoding format. Each package consists of a number indicating the count of values measured in each measurement cycle, followed by the measured values.
+-The values are encoded using alphabetical characters, with "a" representing 1, "b" representing 2, and so on, up to "z" representing 26.
+-Numbers higher than 26 are encoded with multiple characters that are added together. The encoding format is terminated with the first non-"z" character following a sequence of multiple characters representing a number.
+-The API provides a GET endpoint that accepts a query parameter "convert-measurements" containing the measurement input string. The endpoint parses the input string, converts the 
+measurements into a list of the total value of measured inflows for each package, and returns the result in JSON format. The same or another GET endpoint can return the stored history.
+
+Functional Requirements:
+-Code Maintainability: Ensure the code is structured to be easily understandable and maintainable.
+-Single Responsibility Principle (SRP): Follow SRP strictly to enhance reusability and maintainability.
+-Logging: Implement sufficient log statements to provide application state visibility at runtime.
+-README.md File: Include setup instructions, prerequisites, environment setup, build instructions, and API usage guidelines.
+-Conversion Endpoint: Implement an API endpoint that accepts a measurement input string. The endpoint should convert the input string into a list of the total values of measured inflows for each package and return the result in JSON format.
+-Custom Port Support: The server application should support running on a custom port using external arguments. Example: python main_app.py 8888 should run the application on port 8888.
+-Persisting Request History: Store all request and response data persistently in a database (MongoDB or SQLite preferred), allowing retrieval via an API endpoint.
+-Secure API History with Encrypted Local Storage:
+	-All input and output history must be stored in a local file.
+	-The file's contents must be encrypted before being written to disk.
+	-Upon startup, the file must be decrypted and loaded into RAM.
+	-Any new history entries must be added to the in-memory data structure.
+	-Before shutting down, the updated history must be encrypted and written back to the file.
+	-Use a strong encryption algorithm for securing data.
+	-Use asymmetric key encryption
+	-The contents of the file must only be accessible via a dedicated api.
+
+Non-Functional Requirements:
+-The code should be maintainable and understandable. (See the UML diagram below for an idea, however, feel free to modify it and make it better)
+-Single Responsibility Principle (SRP): Follow SRP strictly to make the code more re-usable and maintainable.
+-Logging: Application should have the necessary log statements on console that show the state of the application at any point of time.
+-README.md File: Update the README.md file when contributing to the GitHub repository that provides instructions on how to set up and run the application. Include information about any prerequisites, environment setup, build instructions, and API usage.
+________________________________________________________________________________________
+Class Diagram:
+Sequence Controller
+	exposed: bool
+	sequence_service: SequenceService
+	GET(obj): dict(json)
+
+Sequence Service
+	sequence_history: SequenceHistory
+	get_sequence(str): Sequence
+	process_sequence (Sequence): list[int]
+
+Sequence
+	-value: list[str]
+	set_value(type): None
+	get_value_as_str(): str
+	is_valid(): bool
+
+SequenceHistory
+	list_of_seq (Sequence): list[Sequence]
+	save_curr_seq(Sequence): bool
+	get_history(): list[Sequence]
+_________________________________________________________________________________
+Examples of API Usage:
+Assuming the API is running locally on http://localhost:8080
+Following are the sample request and expected responses:
+Request:
+GET/convert-measurements? input=aa
+Response:
+Status: 200 OK
+Body: [1]
+Request:
+GET/convert-measurements?input=abbcc
+Response:
+Status: 200 OK
+Body: [2, 6]
+GET/convert-measurements? input=dz_a_aazzaaa
+Response:
+Status: 200 OK
+Body: [28, 53, 1]
+_________________________________________________________________________________
+Note:
+The above examples demonstrate the usage of the Package Measurement Conversion API endpoint.
+This doesn't mean that you must always stick with the rules if you think they will introduce any security vulnerabilities
+or make the code un-maintainable. You should implement this API based on your understanding. However, your decisions should
+have a logical reason that can be understood by other members of the team. Make sure you provide the necessary README files
+as specified in the non-functional requirements.
