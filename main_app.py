@@ -47,6 +47,7 @@ class MeasurementService:
             return 0
         return ord(char) - ord('a') + 1
 
+    # Process the measurement string and convert it to a list of integers.
     def process_measurement(self, measurement: Measurement) -> list:
         user_string = measurement.get_value_as_str()
         logging.debug(f"[Service] Processing measurement: {user_string}")
@@ -198,6 +199,8 @@ class SecureHistoryStorage:
             "timestamp": datetime.now().isoformat()
         }
         self.history.append(entry)
+        # Immediately update the encrypted storage when a new entry is added.
+        self.save_history()
 
     def get_history(self) -> list:
         return self.history

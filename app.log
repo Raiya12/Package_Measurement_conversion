@@ -52,3 +52,128 @@
 2025-04-22 10:47:21,122 [INFO] [API] Starting FastAPI server on port: 8888
 2025-04-22 10:47:21,125 [DEBUG] Using proactor: IocpProactor
 2025-04-22 11:28:57,459 [INFO] Secure history saved to disk.
+2025-04-22 14:06:46,398 [INFO] [API] Starting FastAPI server on port: 8888
+2025-04-22 14:06:46,403 [DEBUG] Using proactor: IocpProactor
+2025-04-22 14:11:34,470 [INFO] Secure history saved to disk.
+2025-04-22 14:14:41,050 [INFO] [API] Starting FastAPI server on port: 8888
+2025-04-22 14:14:41,053 [DEBUG] Using proactor: IocpProactor
+2025-04-22 14:15:15,261 [INFO] [API] Received /convert request with input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 14:15:20,275 [INFO] [API] Received /convert request with input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 14:15:22,450 [INFO] [API] Received /convert request with input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 14:18:00,670 [INFO] Secure history saved to disk.
+2025-04-22 14:18:04,779 [INFO] [API] Starting FastAPI server on port: 8888
+2025-04-22 14:18:04,783 [DEBUG] Using proactor: IocpProactor
+2025-04-22 14:18:08,993 [INFO] [API] Received /convert request with input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 14:18:09,533 [INFO] [API] Received /convert request with input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 14:18:09,725 [INFO] [API] Received /convert request with input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 14:18:10,046 [INFO] [API] Received /convert request with input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 14:18:10,248 [INFO] [API] Received /convert request with input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 14:18:12,011 [INFO] [API] Received /convert request with input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 14:20:56,807 [INFO] Secure history saved to disk.
+2025-04-22 14:20:59,784 [INFO] [API] Starting FastAPI server on port: 8888
+2025-04-22 14:20:59,787 [DEBUG] Using proactor: IocpProactor
+2025-04-22 14:21:07,676 [INFO] [API] Received /convert request with input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 14:23:45,450 [INFO] Secure history saved to disk.
+2025-04-22 14:23:53,734 [INFO] [API] Starting FastAPI server on port: 8888
+2025-04-22 14:23:53,737 [DEBUG] Using proactor: IocpProactor
+2025-04-22 14:23:58,550 [INFO] [API] Received /convert request with input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 14:23:58,550 [DEBUG] Starting two-pointer conversion for input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 14:23:58,550 [DEBUG] Finished two-pointer conversion, result: [26, 0]
+2025-04-22 14:23:58,550 [INFO] [API] Processed and added secure history entry: [26, 0]
+2025-04-22 14:24:00,149 [INFO] [API] Received /convert request with input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 14:24:00,149 [DEBUG] Starting two-pointer conversion for input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 14:24:00,149 [DEBUG] Finished two-pointer conversion, result: [26, 0]
+2025-04-22 14:24:00,149 [INFO] [API] Processed and added secure history entry: [26, 0]
+2025-04-22 14:26:44,375 [INFO] Secure history saved to disk.
+2025-04-22 14:50:50,198 [INFO] [API] Starting FastAPI server on port: 8888
+2025-04-22 14:50:50,202 [DEBUG] Using proactor: IocpProactor
+2025-04-22 14:50:53,943 [INFO] [API] Received /convert request with input: dz_a_aazzaaa
+2025-04-22 14:50:53,943 [DEBUG] [Service] Processing measurement: dz_a_aazzaaa
+2025-04-22 14:50:53,943 [DEBUG] [Service] Finished processing. Result: [28, 53, 1]
+2025-04-22 14:50:53,943 [INFO] [API] Processed and added secure history entry: [28, 53, 1]
+2025-04-22 14:51:27,237 [INFO] [API] Received /convert request with input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 14:51:27,237 [DEBUG] [Service] Processing measurement: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 14:51:27,237 [DEBUG] [Service] Finished processing. Result: [26, 0]
+2025-04-22 14:51:27,237 [INFO] [API] Processed and added secure history entry: [26, 0]
+2025-04-22 15:18:40,443 [INFO] Secure history saved to disk.
+2025-04-22 15:18:46,008 [INFO] [API] Starting FastAPI server on port: 8888
+2025-04-22 15:18:46,013 [DEBUG] Using proactor: IocpProactor
+2025-04-22 15:18:50,293 [INFO] [API] Received /convert request with input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 15:18:50,293 [DEBUG] [Service] Processing measurement: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 15:18:50,293 [DEBUG] [Service] Finished processing. Result: [26, 0]
+2025-04-22 15:18:50,293 [INFO] [API] Processed and added secure history entry: [26, 0]
+2025-04-22 15:18:51,225 [INFO] [API] Received /convert request with input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 15:18:51,225 [DEBUG] [Service] Processing measurement: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 15:18:51,226 [DEBUG] [Service] Finished processing. Result: [26, 0]
+2025-04-22 15:18:51,226 [INFO] [API] Processed and added secure history entry: [26, 0]
+2025-04-22 15:18:53,308 [INFO] [API] Received /convert request with input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 15:18:53,308 [DEBUG] [Service] Processing measurement: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 15:18:53,308 [DEBUG] [Service] Finished processing. Result: [26, 0]
+2025-04-22 15:18:53,308 [INFO] [API] Processed and added secure history entry: [26, 0]
+2025-04-22 15:19:00,650 [INFO] [API] Received /convert request with input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 15:19:00,650 [DEBUG] [Service] Processing measurement: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 15:19:00,650 [DEBUG] [Service] Finished processing. Result: [26, 0]
+2025-04-22 15:19:00,650 [INFO] [API] Processed and added secure history entry: [26, 0]
+2025-04-22 15:19:03,622 [INFO] [API] Received /convert request with input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 15:19:03,622 [DEBUG] [Service] Processing measurement: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 15:19:03,622 [DEBUG] [Service] Finished processing. Result: [26]
+2025-04-22 15:19:03,622 [INFO] [API] Processed and added secure history entry: [26]
+2025-04-22 15:21:07,850 [INFO] [API] Received /convert request with input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 15:21:07,850 [DEBUG] [Service] Processing measurement: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 15:21:07,850 [DEBUG] [Service] Finished processing. Result: [26, 0]
+2025-04-22 15:21:07,851 [INFO] [API] Processed and added secure history entry: [26, 0]
+2025-04-22 15:21:11,785 [INFO] [API] Received /convert request with input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 15:21:11,785 [DEBUG] [Service] Processing measurement: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 15:21:11,786 [DEBUG] [Service] Finished processing. Result: [26]
+2025-04-22 15:21:11,786 [INFO] [API] Processed and added secure history entry: [26]
+2025-04-22 15:22:12,139 [INFO] [API] Received /convert request with input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 15:22:12,139 [DEBUG] [Service] Processing measurement: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 15:22:12,139 [DEBUG] [Service] Finished processing. Result: [26, 0]
+2025-04-22 15:22:12,139 [INFO] [API] Processed and added secure history entry: [26, 0]
+2025-04-22 15:22:16,911 [INFO] [API] Received /convert request with input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 15:22:16,911 [DEBUG] [Service] Processing measurement: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 15:22:16,911 [DEBUG] [Service] Finished processing. Result: [26]
+2025-04-22 15:22:16,911 [INFO] [API] Processed and added secure history entry: [26]
+2025-04-22 15:23:00,539 [INFO] [API] Received /convert request with input: za_a_a_a_a_a_a_a_a_a_a_a_a_azaaa
+2025-04-22 15:23:00,539 [DEBUG] [Service] Processing measurement: za_a_a_a_a_a_a_a_a_a_a_a_a_azaaa
+2025-04-22 15:23:00,539 [DEBUG] [Service] Finished processing. Result: [40, 1]
+2025-04-22 15:23:00,539 [INFO] [API] Processed and added secure history entry: [40, 1]
+2025-04-22 15:23:08,665 [INFO] [API] Received /convert request with input: zdaaaaaaaabaaaaaaaabaaaaaaaabbaa
+2025-04-22 15:23:08,665 [DEBUG] [Service] Processing measurement: zdaaaaaaaabaaaaaaaabaaaaaaaabbaa
+2025-04-22 15:23:08,665 [DEBUG] [Service] Finished processing. Result: [34]
+2025-04-22 15:23:08,665 [INFO] [API] Processed and added secure history entry: [34]
+2025-04-22 15:23:20,609 [INFO] [API] Received /convert request with input: abcdabcdab_
+2025-04-22 15:23:20,609 [DEBUG] [Service] Processing measurement: abcdabcdab_
+2025-04-22 15:23:20,609 [DEBUG] [Service] Finished processing. Result: [2, 7, 7]
+2025-04-22 15:23:20,609 [INFO] [API] Processed and added secure history entry: [2, 7, 7]
+2025-04-22 15:23:23,743 [INFO] [API] Received /convert request with input: abcdabcdab_
+2025-04-22 15:23:23,743 [DEBUG] [Service] Processing measurement: abcdabcdab_
+2025-04-22 15:23:23,743 [DEBUG] [Service] Finished processing. Result: [2, 7, 7]
+2025-04-22 15:23:23,743 [INFO] [API] Processed and added secure history entry: [2, 7, 7]
+2025-04-22 15:23:48,641 [INFO] [API] Received /convert request with input: abcdabcdab
+2025-04-22 15:23:48,641 [DEBUG] [Service] Processing measurement: abcdabcdab
+2025-04-22 15:23:48,641 [DEBUG] [Service] Finished processing. Result: [2, 7, 7]
+2025-04-22 15:23:48,641 [INFO] [API] Processed and added secure history entry: [2, 7, 7]
+2025-04-22 15:24:17,566 [INFO] Secure history saved to disk.
+2025-04-22 15:24:21,030 [INFO] [API] Starting FastAPI server on port: 8888
+2025-04-22 15:24:21,034 [DEBUG] Using proactor: IocpProactor
+2025-04-22 15:24:28,998 [INFO] [API] Received /convert request with input: abcdabcdab_
+2025-04-22 15:24:28,998 [DEBUG] [Service] Processing measurement: abcdabcdab_
+2025-04-22 15:24:28,998 [DEBUG] [Service] Finished processing. Result: [2, 7, 7, 0]
+2025-04-22 15:24:28,998 [INFO] [API] Processed and added secure history entry: [2, 7, 7, 0]
+2025-04-22 15:28:37,455 [INFO] [API] Received /convert request with input: abcdabcdab_
+2025-04-22 15:28:37,456 [DEBUG] [Service] Processing measurement: abcdabcdab_
+2025-04-22 15:28:37,456 [DEBUG] [Service] Finished processing. Result: [2, 7, 7, 0]
+2025-04-22 15:28:37,456 [INFO] [API] Processed and added secure history entry: [2, 7, 7, 0]
+2025-04-22 15:29:20,398 [INFO] Secure history saved to disk.
+2025-04-22 15:31:16,721 [INFO] [API] Starting FastAPI server on port: 8888
+2025-04-22 15:31:16,724 [DEBUG] Using proactor: IocpProactor
+2025-04-22 15:45:42,459 [INFO] Secure history saved to disk.
+2025-04-22 15:45:45,201 [INFO] [API] Starting FastAPI server on port: 8888
+2025-04-22 15:45:45,204 [DEBUG] Using proactor: IocpProactor
+2025-04-22 15:46:02,574 [INFO] [API] Received /convert request with input: abcdabcdab_
+2025-04-22 15:46:02,574 [DEBUG] [Service] Processing measurement: abcdabcdab_
+2025-04-22 15:46:02,574 [DEBUG] [Service] Finished processing. Result: [2, 7, 7, 0]
+2025-04-22 15:46:02,576 [INFO] Secure history saved to disk.
+2025-04-22 15:46:02,576 [INFO] [API] Processed and added secure history entry: [2, 7, 7, 0]
+2025-04-22 15:46:09,005 [INFO] Secure history saved to disk.
