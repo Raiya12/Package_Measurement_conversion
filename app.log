@@ -1,0 +1,54 @@
+2025-04-22 09:02:27,974 [INFO] Starting CLI mode for measurement input
+2025-04-22 09:02:35,557 [INFO] Processing CLI measurement input: za_a_a_a_a_a_a_a_a_a_a_a_a_azaaa
+2025-04-22 09:02:35,557 [DEBUG] Starting compute_measurement with input: za_a_a_a_a_a_a_a_a_a_a_a_a_azaaa
+2025-04-22 09:02:35,558 [DEBUG] Finished compute_measurement, result: [40, 1]
+2025-04-22 09:02:35,558 [INFO] CLI computed result: [40, 1]
+2025-04-22 09:05:27,291 [INFO] Starting CLI mode for measurement input
+2025-04-22 09:05:34,388 [INFO] Processing CLI measurement input: za_a_a_a_a_a_a_a_a_a_a_a_a_azaaa
+2025-04-22 09:05:34,388 [DEBUG] Starting compute_measurement with input: za_a_a_a_a_a_a_a_a_a_a_a_a_azaaa
+2025-04-22 09:05:34,388 [DEBUG] Finished compute_measurement, result: [40, 1]
+2025-04-22 09:05:34,392 [INFO] CLI computed result: [40, 1]
+2025-04-22 09:16:38,511 [INFO] Starting FastAPI server on port: 8888
+2025-04-22 09:16:38,518 [DEBUG] Using proactor: IocpProactor
+2025-04-22 09:23:05,337 [INFO] Received /convert request with input: za_a_a_a_a_a_a_a_a_a_a_a_a_azaaa
+2025-04-22 09:23:05,337 [DEBUG] Starting compute_measurement with input: za_a_a_a_a_a_a_a_a_a_a_a_a_azaaa
+2025-04-22 09:23:05,338 [DEBUG] Finished compute_measurement, result: [40, 1]
+2025-04-22 09:23:05,338 [INFO] Appended conversion result: [40, 1]
+2025-04-22 09:44:06,647 [INFO] Starting FastAPI server on port: 8888
+2025-04-22 09:44:06,651 [DEBUG] Using proactor: IocpProactor
+2025-04-22 09:45:06,483 [INFO] Received /convert request with input: abcdabcdab_
+2025-04-22 09:45:06,484 [DEBUG] Starting compute_measurement with input: abcdabcdab_
+2025-04-22 09:45:06,484 [DEBUG] Finished compute_measurement, result: [2, 7, 7]
+2025-04-22 09:45:06,496 [INFO] Persisted conversion result: [2, 7, 7]
+2025-04-22 09:57:47,179 [INFO] Starting FastAPI server on port: 8888
+2025-04-22 09:57:47,182 [DEBUG] Using proactor: IocpProactor
+2025-04-22 09:57:51,613 [INFO] Received /convert request with input: abcdabcdab_
+2025-04-22 09:57:51,614 [DEBUG] Starting compute_measurement with input: abcdabcdab_
+2025-04-22 09:57:51,614 [DEBUG] Finished compute_measurement, result: [2, 7, 7, 0]
+2025-04-22 09:57:51,643 [INFO] Persisted conversion result: [2, 7, 7, 0]
+2025-04-22 09:58:05,888 [INFO] Received /convert request with input: za_a_a_a_a_a_a_a_a_a_a_a_a_azaaa
+2025-04-22 09:58:05,888 [DEBUG] Starting compute_measurement with input: za_a_a_a_a_a_a_a_a_a_a_a_a_azaaa
+2025-04-22 09:58:05,888 [DEBUG] Finished compute_measurement, result: [40, 1]
+2025-04-22 09:58:05,894 [INFO] Persisted conversion result: [40, 1]
+2025-04-22 09:58:18,289 [INFO] Received /convert request with input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 09:58:18,289 [DEBUG] Starting compute_measurement with input: zza_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_a_
+2025-04-22 09:58:18,289 [DEBUG] Finished compute_measurement, result: [26, 0]
+2025-04-22 09:58:18,298 [INFO] Persisted conversion result: [26, 0]
+2025-04-22 09:58:31,151 [INFO] Received /convert request with input: abcdabcdab
+2025-04-22 09:58:31,152 [DEBUG] Starting compute_measurement with input: abcdabcdab
+2025-04-22 09:58:31,152 [DEBUG] Finished compute_measurement, result: [2, 7, 7]
+2025-04-22 09:58:31,158 [INFO] Persisted conversion result: [2, 7, 7]
+2025-04-22 09:58:42,136 [INFO] Received /convert request with input: dz_a_aazzaaa
+2025-04-22 09:58:42,136 [DEBUG] Starting compute_measurement with input: dz_a_aazzaaa
+2025-04-22 09:58:42,136 [DEBUG] Finished compute_measurement, result: [28, 53, 1]
+2025-04-22 09:58:42,142 [INFO] Persisted conversion result: [28, 53, 1]
+2025-04-22 10:21:54,323 [INFO] [API] Starting FastAPI server on port: 8888
+2025-04-22 10:21:54,327 [DEBUG] Using proactor: IocpProactor
+2025-04-22 10:22:57,477 [INFO] [API] Received /convert request with input: dz_a_aazzaaa
+2025-04-22 10:22:57,477 [DEBUG] [Service] Processing measurement: dz_a_aazzaaa
+2025-04-22 10:22:57,477 [DEBUG] [Service] Finished processing. Result: [28, 53, 1]
+2025-04-22 10:22:57,518 [DEBUG] [History] Saved measurement: dz_a_aazzaaa with result: [28, 53, 1]
+2025-04-22 10:22:57,519 [INFO] [API] Processed and persisted result: [28, 53, 1]
+2025-04-22 10:47:21,122 [INFO] [API] Starting FastAPI server on port: 8888
+2025-04-22 10:47:21,125 [DEBUG] Using proactor: IocpProactor
+2025-04-22 11:28:57,459 [INFO] Secure history saved to disk.
