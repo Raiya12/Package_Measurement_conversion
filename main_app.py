@@ -6,6 +6,7 @@ import uvicorn
 import base64
 from datetime import datetime
 from fastapi import FastAPI, Query
+from fastapi.middleware.cors import CORSMiddleware
 # For asymmetric and symmetric encryption
 from cryptography.hazmat.primitives.asymmetric import rsa, padding
 from cryptography.hazmat.primitives import serialization, hashes
@@ -247,6 +248,15 @@ class SecureHistoryStorage:
 # Responsibility: Expose the /convert, /secure-history endpoints.
 # -----------------------------------------------------------------------------
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Adjust this in production to restrict allowed origins
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 secure_history_storage = SecureHistoryStorage()
 measurement_service = MeasurementService()
 
